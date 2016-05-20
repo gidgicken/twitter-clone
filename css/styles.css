@@ -129,6 +129,7 @@ body {
 	}
 		#tweet-controls {
 			text-align: right;
+			display: none;
 		}
 			#tweet-controls div {
 				display: inline-block;
@@ -138,7 +139,6 @@ body {
 				color: #999;
 				text-shadow: 0 1px 1px rgba(255,255,255,.75);
 			}
-
 /* TWEET */
 .tweet {
 	clear: both;
@@ -167,8 +167,10 @@ body {
 	}
 
 	.tweet-actions {
+		display: none;
 		text-align: right;
 	}
+
 		.tweet-actions ul {
 			list-style-type: none;
 		}
@@ -211,6 +213,7 @@ body {
 	.stats {
 		margin: 12px 0 12px 42px;
 		border-top: 1px solid #e8e8e8;
+		display: none;
 	}
 		.stats, .stats div {
 			box-sizing: border-box;
@@ -249,6 +252,7 @@ body {
 		}
 
 		.reply {
+			display: none;
 			position: relative;
 			clear: both;
 			padding-left: 43px;
@@ -258,5 +262,3 @@ body {
 				top: 0;
 				left: 0;
 			}
-
-
